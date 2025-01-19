@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+<fieldset>
+    <form>
+        <label for="one">First Name:</label>
+        <input type="text" id="one" required>
+        <br><br>
+        
+        <label for="two">Last Name:</label>
+        <input type="text" id="two" required>
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" required title="Enter valid email">
+        <br><br>
+
+        <label>Password:</label>
+        <input type="password">
+        <br><br>
+
+        <label>Mobile Number:</label>
+        <input type="text">
+        <br><br>
+
+        <label>Age:</label>
+        <input type="number" min="18" max="32">
+        <br><br>
+
+        <label>Select Course:</label>
+        <input type="checkbox">Java Programming Language
+        <input type="checkbox">Python Programming Language
+        <input type="checkbox">Structured Query Language
+        <br><br>
+
+        <label>Select City:</label>
+        <select>
+            <option value="pune">Pune</option>
+            <option value="Mum">Mumbai</option>
+            <option value="oo">Ooty</option>
+            <option value="Ban">Bangaluru</option>
+        </select>
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="Gender">Male
+        <input type="radio" name="Gender">Female
+        <input type="radio" name="Gender">Other
+        <br><br>
+
+        <label>DOB:</label>
+        <input type="date">
+        <br><br>
+
+        <label>Colour:</label>
+        <input type="color">
+        <br><br>
+
+        <label>Select Volume:</label>
+        <input type="range">
+        <br><br>
+
+        <textarea>
+            Write your comments here...
+        </textarea>
+        <br><br>
+
+        <input type="reset">
+        <br><br>
+
+        <input type="submit">
+    </form>
+</fieldset>
+
+    <br><br><hr>
+    <form>
+        <input type="text" id="one" required placeholder="First name">
+        <br><br>
+        <input type="text" id="two" required placeholder="Last Name">
+        <br><br>
+        <input type="email" required title="Enter valid email" placeholder="Enter Email">
+        <br><br>
+        <input type="password" required placeholder="Enter Password">
+        <br><br>
+        <input type="text" required placeholder="Enter Mobile Number">
+        <br><br>
+        <input type="submit">
+    </form>
+</body>
+</html>

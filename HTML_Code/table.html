@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables in HTML</title>
+</head>
+<body>
+    <h3>Table-01</h3>
+    <table border>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>Priya</td>
+            <td>Verma</td>
+            <td>26</td>
+            <td>Mumbai</td>
+        </tr>
+        <tr>
+            <td>Ankit</td>
+            <td>Singhal</td>
+            <td>32</td>
+            <td>Noida</td>
+        </tr>
+    </table>
+
+    <h3>Table-02</h3>
+    <table border>
+        <tr>
+            <!-- <th>Full Name</th> -->
+            <th colspan="2">Full Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>Priya</td>
+            <td>Verma</td>
+            <td>26</td>
+            <td>Mumbai</td>
+        </tr>
+        <tr>
+            <td>Ankit</td>
+            <td>Singhal</td>
+            <td>32</td>
+            <td>Noida</td>
+        </tr>
+    </table>
+
+    <h3>Table-03</h3>
+    <table border>
+        <tr>
+            <th colspan="2">Full Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>Priya</td>
+            <td>Verma</td>
+            <td>26</td>
+            <td rowspan="2">Mumbai</td>
+        </tr>
+        <tr>
+            <td>Shiva</td>
+            <td>Kumar</td>
+            <td>30</td>
+            <!-- <td>Mumbai</td> -->
+        </tr>
+    </table>
+</body>
+</html>
