@@ -1,0 +1,48 @@
+/* creating progress bar  */
+#container{
+    height: 40px;
+    width: 500px;
+    margin: 200px;
+    background-color: bisque;
+    border: 2px solid black;
+    border-radius: 20%;
+}
+
+#box{
+    height: 38px;
+    width: 500px;
+    left: 20px;
+    background-color: yellowgreen;
+    /* border: 2px solid black; */
+    border-radius: 20%;
+
+    animation: anime 5s infinite ease-in-out alternate 2s;
+}
+
+@keyframes anime {
+    0%{
+        left: 40px;
+        width: 100px;
+        background-color: red;
+    }
+    0%{
+        left: 40px;
+        width: 100px;
+        background-color: red;
+    }
+    0%{
+        left: 40px;
+        width: 100px;
+        background-color: red;
+    }
+    0%{
+        left: 40px;
+        width: 100px;
+        background-color: red;
+    }
+    0%{
+        left: 40px;
+        width: 100px;
+        background-color: red;
+    }
+}

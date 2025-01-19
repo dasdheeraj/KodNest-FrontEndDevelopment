@@ -1,0 +1,18 @@
+/* applying background colour to the body, page, header, paragraph */
+body{
+    background-color: aquamarine;
+}
+#p1{
+    background-color: green;
+}
+#p2{
+    background-color: yellow;
+}
+
+p{
+    background-color: antiquewhite;
+}
+
+h1{
+    background-color: cadetblue;
+}

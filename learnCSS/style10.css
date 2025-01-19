@@ -1,0 +1,33 @@
+/* units in css - pixels, percentage, em, rem */
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-size: 50px;
+}
+
+#box1{
+    background-color: red;
+    /* height: 300px; */
+    /* width: 700px; */
+    /* vh, vw- occupy space of screen in percentage  */
+    height: 90vh;
+    width: 70vw;
+    font-size: 20px;
+}
+
+#box2{
+    background-color: yellow;
+    width: 50%;
+    /* font-size:em - it doubles the child font as per parent font size */
+    /* font-size: 2em; */
+    /* em = size according to parent */
+    font-size: 2em;
+}
+
+#box3{
+    background-color: green;
+    width: 50%;
+    /* rem = size according to root */
+    font-size: 0.5rem;
+}

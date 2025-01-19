@@ -1,0 +1,57 @@
+/* animations in css */
+#box{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    padding: 5px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 10%;
+
+    /* apply animation properties  */
+
+    /* animation-name: anime;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-delay: 2s; */
+
+    animation: anime 5s infinite ease-in-out alternate 2s;
+}
+/* creating custom animations */
+/* this custom animations will show only if it is applied as shown above - in apply animation properties */
+@keyframes anime {
+    /* from{
+        margin: 20px;
+        background-color: aquamarine;
+    }
+    to{
+        margin: 200px;
+        background-color: blue;
+    } */
+
+    /* apply above properties in other way - in % format  */
+    0%{
+        margin: 20px;
+        background-color: aquamarine;
+        /* text-align: center; */
+    }
+    25%{
+        margin: 40px;
+        background-color: red;
+        /* text-align: right; */
+    }
+    50%{
+        margin: 80px;
+        background-color: blue;
+    }
+    75%{
+        margin: 150px;
+        background-color: green;
+    }
+    100%{
+        margin: 200px;
+        background-color: yellow;
+    }
+}

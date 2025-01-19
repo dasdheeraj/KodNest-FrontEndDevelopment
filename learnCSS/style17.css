@@ -1,0 +1,36 @@
+/* transition and transform properties */
+div{
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+    padding: 5px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 10%;
+    transition-duration: 2s;
+}
+.box1:hover{
+    /* transform: rotate(60deg); */
+    /* transform: scale(2); */
+    /* transform: translate(100px); */
+    transform: skew(45deg);
+}
+.box2:hover{
+    /* transform: rotate(60deg); */
+    /* transform: scaleX(2); */
+    /* transform: translateX(100px); */
+    transform: skewX(45deg);
+}
+.box3:hover{
+    /* transform: rotate(60deg); */
+    /* transform: scaleY(2); */
+    /* transform: translateY(100px); */
+    transform: skewY(45deg);
+}
+.box4:hover{
+    /* transform: rotate(60deg); */
+    /* transform: scaleZ(2) => it will not visible to us bcz z-axis */
+    /* transform: scaleZ(2);   */
+    /* transform: translateZ(100px); */
+    transform: skewZ(45deg);
+}

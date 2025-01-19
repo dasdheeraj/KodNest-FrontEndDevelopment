@@ -1,0 +1,26 @@
+/* media queries in css */
+body{
+    background-color: aquamarine;
+}
+
+#box{
+    background-color: yellowgreen;
+    font-size: 30px;
+    width: 90%;
+    border: 5px solid black;
+}
+
+/* do not type */
+
+@media screen and (max-width:500px){
+    body{
+        background-color: gray;
+    }
+
+    #box{
+        background-color: yellow;
+        font-size: 15px;
+        width: 90%;
+        border: 1px solid blue;
+    }
+}

@@ -1,0 +1,28 @@
+/* float box properties */
+#container{
+    background-color: cadetblue;
+    height: 300px;
+    width: 800px;
+    border: 3px solid black;
+}
+.box{
+    margin: 5px;
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+}
+#box1{
+    background-color: yellow;
+    float: left;
+    /* float: right; */
+    /* height: 200px;
+    width: 200px;
+    border: 3px solid black; */
+}
+#box2{
+    background-color: brown;
+    float: right;
+    /* height: 200px;
+    width: 200px;
+    border: 3px solid black; */
+}

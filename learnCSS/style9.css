@@ -1,0 +1,47 @@
+/* block elements and display properties */
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+#box1{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    display: block;
+}
+
+#box2{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    /* inline elements do not allow to set height and width  */
+    display: inline;
+}
+
+#box3{
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+    /* inline-block elements allows to set height and width  */
+    display: inline-block;
+}
+
+#box4{
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+    display: block;
+    /* display-hidden : not visible but accupy the space on the webpage  */
+    visibility: hidden;
+}
+
+#box5{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    display: block;
+    /* display-none : not visible nor accupy any space on the webpage  */
+    display: none;
+}

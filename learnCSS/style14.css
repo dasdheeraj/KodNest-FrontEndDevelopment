@@ -1,0 +1,37 @@
+/* flex box properties */
+#container{
+    background-color: cadetblue;
+    height: 700px;
+    width: 700px;
+    border: 3px solid black;
+    /* to display as row view  => default view is column view */
+    display: flex; 
+    /* flex-direction: row-reverse; */
+    /* flex-direction: row; */
+    /* flex-direction: column-reverse; */
+
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+    justify-content: space-between;
+}
+.box{
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+}
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: blue;
+}
+#box3{
+    background-color: green;
+}
+#box4{
+    background-color: yellow;
+}

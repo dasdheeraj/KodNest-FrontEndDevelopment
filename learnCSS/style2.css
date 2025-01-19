@@ -1,0 +1,25 @@
+/* ID Selector */
+#p1{
+    color: red;
+}
+#p2{
+    color: green;
+}
+#p3{
+    color: blue;
+}
+
+/* class selector */
+.p4{
+    color: brown;
+}
+
+/* element selector */
+h1{
+    color: blueviolet;
+}
+
+/* universal selector */
+*{
+    color: gold;
+}

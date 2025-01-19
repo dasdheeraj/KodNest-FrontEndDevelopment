@@ -1,0 +1,22 @@
+/* pseudo classes */
+/* media queries and animations using css */
+.btn{
+    height: 50px;
+    width: 100px;
+    border-radius: 20%;
+    background-color: yellow;
+    border: 2px solid black;
+    /* transition-property: all;
+    transition-timing-function: steps(5);
+    transition-duration: 1s; */
+    transition: all steps(5) 1s;
+}
+.btn:hover{
+    background-color: green;
+    height: 150px;
+    width: 300px;
+    border: 5px solid blue;
+}
+.btn:active{
+    background-color: tomato;
+}

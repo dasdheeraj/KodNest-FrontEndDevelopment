@@ -1,0 +1,54 @@
+/* '*' = universal selector */
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+/* applying box model properties - padding, margin, border  */
+#box1{
+    height: 100px;
+    width: 200px;
+    background-color: yellow;
+    padding: 10px 125px 40px 60px;
+    /* 
+    margin: 20px 40px 60px 80px; 
+    same can also be written as:-
+    */
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    margin-left: 80px;
+    border: 5px dashed blue;
+}
+#box2{
+    height: 100px;
+    width: 200px;
+    box-sizing: border-box;
+    background-color: cadetblue;
+    padding: 50px;
+    margin: 20px;
+    border: 5px dotted black;
+}
+#box3{
+    background-color: cadetblue;
+    padding: 20px;
+    margin: 20px;
+    border: 15px solid green;
+    border-radius: 30px;
+}
+#box4{
+    background-color: tomato;
+    padding: 20px;
+    margin: 20px;
+    border: 15px solid greenyellow;
+    border-radius: 0px 30px 0px 30px;
+}
+#box5{
+    height: 100px;
+    width: 100px;
+    background-color: burlywood;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid red;
+    border-radius: 60px;
+}

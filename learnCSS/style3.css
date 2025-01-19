@@ -1,0 +1,58 @@
+/* color system - color name */
+
+/* color system - RGB values */
+#p1{
+    color: rgb(255, 0, 0);
+}
+#p2{
+    color: rgb(0, 255, 0);
+}
+#p3{
+    color: rgb(0, 0, 255);
+}
+
+#p4{
+    color: rgb(0, 0, 0);
+}
+#p5{
+    color: rgb(255, 255, 255);
+}
+#p6{
+    color: rgb(200, 150, 200);
+}
+h1{
+    color: blueviolet;
+}
+h2{
+    color: brown;
+}
+
+/*  */
+#p11{
+    color: #ff0000;
+}
+#p22{
+    color: #00ff00;
+}
+#p33{
+    color: #0000ff;
+}
+
+#p44{
+    color: #000000;
+}
+#p55{
+    color: #ffffff;
+}
+#p66{
+    color: #aaccff;
+}
+
+/* RGB Alpha  */
+#p111{
+    color: rgba(red, green, blue, alpha);
+}
+/* RGB Alpha by selecting through coursor */
+#p222{
+    color: rgba(255, 0, 0, 0.766);
+}
