@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Child and Descendant Selector</title>
+
+    <style>
+      /* Child Selector */
+      ul > li {
+        color: rgb(255, 17, 0);
+      }
+      /* Descendant Selector */
+      ol li {
+        color: blue;
+      }
+      /* Child Selector */
+      ol > li {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>Item 1</li>
+      <li>
+        Item 2
+        <ol>
+          <li>Subitem 2.1</li>
+          <li>
+            Subitem 2.2
+            <ul>
+              <li>Sub-subitem 2.2.1</li>
+              <li>Sub-subitem 2.2.2</li>
+            </ul>
+          </li>
+          <li>Subitem 2.3</li>
+        </ol>
+      </li>
+    </ul>
+  </body>
+</html>

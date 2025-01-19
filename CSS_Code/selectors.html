@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectors in CSS</title>
+
+    <style>
+      /* ID Selector */
+      #main {
+        color: blue;
+      }
+      
+      /* Class Selector */
+      .headingstyles{
+        font-family: cursive;
+        font-weight: bold;
+        color: crimson;
+      }
+
+      /* Group Selector */
+      pre, h2{
+        color: red;
+      }
+
+      /* Universal Selector */
+      *{
+        background-color: antiquewhite;
+      }
+    </style>
+
+  </head>
+  <body>
+    
+    <div>
+        <!-- ID Selector -->
+        <h3 class="headingstyles">Heading of main content</h3>
+        <p id="main">Main content</p>
+
+        <!-- Class Selector -->
+        <h3 class="headingstyles">Heading of sub content</h3>
+        <p>Sub content</p>
+    </div>
+
+    <!-- Element Selector -->
+    <pre>Pre formatted text</pre>
+    <h2>Heading 2</h2>
+
+
+  </body>
+</html>
