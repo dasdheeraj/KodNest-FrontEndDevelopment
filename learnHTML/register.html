@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register</title>
+</head>
+<body>
+    <h2>Register here -</h2>
+    <form action="/register" method="post">
+        <label>Username : </label>
+        <input type="text" placeholder="Enter username" required>
+        <br><br>
+        <label>Email : </label>
+        <input type="emial" placeholder="Enter email" required>
+        <br><br>
+        <label>Password : </label>
+        <input type="password" placeholder="Enter password" required>
+        <br><br>
+        <label>Address :</label>
+        <textarea rows="5"cols="20" >Enter address</textarea>
+        <br><br>
+        <label>Gender : </label>
+        <input type="radio" name="gen" value="m">Male
+        <input type="radio" name="gen" value="f">Female
+        <input type="radio" name="gen" value="o">Other
+        <br><br>
+        <label>DOB : </label>
+        <input type="date">
+        <br><br>
+        <label>Course : </label>
+        <select>
+            <option>MCP 1</option>
+            <option>MCP 2</option>
+        </select>
+        <br><br>
+        <label>Upload resume : </label>
+        <input type="file">
+        <br><br>
+        <label>Favourite colour : </label>
+        <input type="color">
+        <br><br>
+        <input type="checkbox"> I agree to above info
+        <br><br>
+        <button type="submit">Register</button>
+    </form>
+    
+</body>
+</html>
